@@ -36,7 +36,7 @@ export default function MyProfileInfo() {
                                 <Avatar className='w-24 h-24 rounded-full'>
 
                                     <Avatar.Image src={currentUserInfo?.photo}
-                                        className="rounded-full border-4 border-white shadow-md bg-[#e7f3ff]" />
+                                        className="rounded-full border-4 border-white shadow-md bg-light-blue" />
 
 
                                 </Avatar>
