@@ -1,4 +1,5 @@
 {
+  "home": "https://haninmoanwar.github.io/Route-Social-App",
   "name": "social-app",
   "private": true,
   "version": "0.0.0",
@@ -6,6 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "deploy": "gh-pages -d build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -34,6 +36,7 @@
     "eslint": "^10.10.0",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.6",
+    "gh-pages": "^6.3.0",
     "globals": "^17.12.0",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.69.0",
