@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import "@heroui/styles";
+
+@theme {
+  --color-brand-blue: #002f87;
+  --color-brand-dark-blue: #091e42;
+  --color-light-gray: #f0f2f5;
+  --color-light-blue: #e7f3ff;
+}
