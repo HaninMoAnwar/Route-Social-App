@@ -7,5 +7,5 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
-  base:"social-app"
+  base:"Route-Social-App"
 })
