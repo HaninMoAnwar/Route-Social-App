@@ -1,4 +1,4 @@
-import { createBrowserRouter, createHashRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import FeedPage from "../../pages/FeedPage/FeedPage";
 import NotFoundPage from "../../pages/NotFoundPage/NotFoundPage";
 import AuthLayout from "../Layouts/AuthLayout";
