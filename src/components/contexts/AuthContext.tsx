@@ -49,9 +49,12 @@ export default function AuthContextProvider({ children }: { children: ReactNode 
 
 
   useEffect(() => {
-    const { user } = jwtDecode<TokenDecodingType>(userToken!);
+    if(userToken){
 
-    setUserId(user);
+      const { user } = jwtDecode<TokenDecodingType>(userToken);
+      setUserId(user);
+    }
+
   }, [])
 
   useEffect(() => {

@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, createHashRouter } from "react-router-dom";
 import FeedPage from "../../pages/FeedPage/FeedPage";
 import NotFoundPage from "../../pages/NotFoundPage/NotFoundPage";
 import AuthLayout from "../Layouts/AuthLayout";
@@ -13,7 +13,8 @@ import PostDetails from "../../pages/PostDetailsPage/PostDetailsPage";
 import UsersProfileInfo from "../profile/UsersProfileInfo/UsersProfileInfo";
 import SettingsPage from "../../pages/SettingsPage/SettingsPage";
 
-export const router = createBrowserRouter([
+
+export const router = createHashRouter([
     {
         element: <ProtectedAuthRouting />,
         children: [
@@ -85,4 +86,4 @@ export const router = createBrowserRouter([
         element: <NotFoundPage />
     }
 
-],{basename:"/Route-Social-App"})
+])
